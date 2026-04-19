@@ -1,3 +1,3 @@
-export function exportImage() {
-  return "export-ready";
+export function exportImage(format: "png" | "svg" | "pdf") {
+  return `export-${format}`;
 }
