@@ -1,3 +1,7 @@
 export default function QRForm() {
-  return <div>QR Form</div>;
+  return (
+    <form>
+      <input type="text" placeholder="Enter QR content" />
+    </form>
+  );
 }
