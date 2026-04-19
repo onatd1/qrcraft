@@ -1,7 +1,7 @@
 export function useCamera() {
   return {
     active: false,
-    start: () => {},
-    stop: () => {},
+    start: () => console.log("camera start"),
+    stop: () => console.log("camera stop"),
   };
 }
