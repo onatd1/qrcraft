@@ -1,3 +1,10 @@
+import DownloadActions from "./DownloadActions";
+
 export default function QRPreview() {
-  return <div>QR Preview Area</div>;
+  return (
+    <div>
+      <div>QR Preview Area</div>
+      <DownloadActions />
+    </div>
+  );
 }
