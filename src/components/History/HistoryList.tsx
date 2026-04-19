@@ -1,3 +1,8 @@
 export default function HistoryList() {
-  return <div>QR History List</div>;
+  return (
+    <div>
+      <h3>QR History</h3>
+      <p>No history yet</p>
+    </div>
+  );
 }
