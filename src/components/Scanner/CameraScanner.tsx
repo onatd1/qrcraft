@@ -1,3 +1,7 @@
+import { useCamera } from "../../hooks/useCamera";
+
 export default function CameraScanner() {
-  return <div>Camera Scanner</div>;
+  const { active } = useCamera();
+
+  return <div>Camera Scanner: {active ? "On" : "Off"}</div>;
 }
