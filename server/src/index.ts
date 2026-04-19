@@ -1,3 +1,7 @@
 import { qrRoute } from "./routes/qr";
 
-console.log(qrRoute());
+export function startServer() {
+  return qrRoute();
+}
+
+console.log(startServer());
