@@ -1,8 +1,8 @@
 export default function HistoryList() {
   return (
-    <div>
+    <section>
       <h3>QR History</h3>
-      <p>No history yet</p>
-    </div>
+      <p>No saved QR records yet.</p>
+    </section>
   );
 }
