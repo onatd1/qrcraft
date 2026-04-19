@@ -1,3 +1,10 @@
+import FormatBadge from "./FormatBadge";
+
 export default function PreviewFrame() {
-  return <div>Preview Frame</div>;
+  return (
+    <div>
+      <div>Preview Frame</div>
+      <FormatBadge />
+    </div>
+  );
 }
