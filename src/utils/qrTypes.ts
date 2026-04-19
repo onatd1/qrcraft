@@ -1,1 +1,8 @@
-export const qrTypes = ["url", "text", "email", "phone"];
+export const qrTypes = [
+  "url",
+  "text",
+  "email",
+  "phone",
+  "wifi",
+  "vcard",
+];
