@@ -15,3 +15,10 @@ Customizable QR code generator and scanner.
 
 - src/ for frontend
 - server/ for backend
+
+## Current progress
+
+- frontend structure created
+- generator components added
+- scanner and history placeholders added
+- backend starter files created
