@@ -2,6 +2,7 @@ import QRForm from "../components/Generator/QRForm";
 import QRPreview from "../components/Generator/QRPreview";
 import Customizer from "../components/Generator/Customizer";
 import TypeSelector from "../components/Generator/TypeSelector";
+import CameraScanner from "../components/Scanner/CameraScanner";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <QRForm />
       <Customizer />
       <QRPreview />
+      <CameraScanner />
     </div>
   );
 }
