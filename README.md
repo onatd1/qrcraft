@@ -10,3 +10,8 @@ Customizable QR code generator and scanner.
 - Camera-based QR scanning
 - QR history
 - Backend API support
+
+## Project structure
+
+- src/ for frontend
+- server/ for backend
