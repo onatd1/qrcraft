@@ -1,7 +1,7 @@
-import QRForm from "../components/Generator/QRForm";
-import QRPreview from "../components/Generator/QRPreview";
-import Customizer from "../components/Generator/Customizer";
 import TypeSelector from "../components/Generator/TypeSelector";
+import QRForm from "../components/Generator/QRForm";
+import Customizer from "../components/Generator/Customizer";
+import QRPreview from "../components/Generator/QRPreview";
 import CameraScanner from "../components/Scanner/CameraScanner";
 import HistoryList from "../components/History/HistoryList";
 
