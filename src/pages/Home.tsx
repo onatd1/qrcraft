@@ -3,6 +3,7 @@ import QRPreview from "../components/Generator/QRPreview";
 import Customizer from "../components/Generator/Customizer";
 import TypeSelector from "../components/Generator/TypeSelector";
 import CameraScanner from "../components/Scanner/CameraScanner";
+import HistoryList from "../components/History/HistoryList";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Customizer />
       <QRPreview />
       <CameraScanner />
+      <HistoryList />
     </div>
   );
 }
