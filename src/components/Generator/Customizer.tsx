@@ -4,10 +4,10 @@ import LogoUpload from "./LogoUpload";
 
 export default function Customizer() {
   return (
-    <div>
+    <section>
       <ColorPicker />
       <ShapeSelector />
       <LogoUpload />
-    </div>
+    </section>
   );
 }
