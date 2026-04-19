@@ -1,6 +1,6 @@
 export function useQRGenerator() {
   return {
     value: "",
-    setValue: () => {},
+    setValue: (next: string) => console.log(next),
   };
 }
