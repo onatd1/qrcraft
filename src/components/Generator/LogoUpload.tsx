@@ -1,3 +1,3 @@
 export default function LogoUpload() {
-  return <div>Logo Upload</div>;
+  return <input type="file" accept="image/*" />;
 }
