@@ -2,7 +2,7 @@ import { qrTypes } from "../../utils/qrTypes";
 
 export default function TypeSelector() {
   return (
-    <select>
+    <select defaultValue="url">
       {qrTypes.map((type) => (
         <option key={type} value={type}>
           {type}
