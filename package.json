@@ -1,0 +1,11 @@
+{
+  "name": "qrcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Customizable QR code generator and scanner",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
