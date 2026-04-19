@@ -7,7 +7,7 @@ import HistoryList from "../components/History/HistoryList";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <h2>Welcome to QRCraft</h2>
       <TypeSelector />
       <QRForm />
@@ -15,6 +15,6 @@ export default function Home() {
       <QRPreview />
       <CameraScanner />
       <HistoryList />
-    </div>
+    </main>
   );
 }
