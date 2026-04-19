@@ -1,3 +1,4 @@
+import SectionTitle from "../components/Generator/SectionTitle";
 import TypeSelector from "../components/Generator/TypeSelector";
 import QRForm from "../components/Generator/QRForm";
 import Customizer from "../components/Generator/Customizer";
@@ -8,7 +9,7 @@ import HistoryList from "../components/History/HistoryList";
 export default function Home() {
   return (
     <main>
-      <h2>Welcome to QRCraft</h2>
+      <SectionTitle text="Welcome to QRCraft" />
       <TypeSelector />
       <QRForm />
       <Customizer />
