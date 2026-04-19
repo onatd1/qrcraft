@@ -1,3 +1,3 @@
 export default function ColorPicker() {
-  return <input type="color" />;
+  return <input type="color" defaultValue="#000000" />;
 }
