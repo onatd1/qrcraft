@@ -3,5 +3,5 @@ type Props = {
 };
 
 export default function PageContainer({ children }: Props) {
-  return <div>{children}</div>;
+  return <main>{children}</main>;
 }
